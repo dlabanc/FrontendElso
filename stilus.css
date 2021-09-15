@@ -79,3 +79,13 @@ a:hover {
 .eltunik {
     display:none;
 }
+
+@media screen and (max-width: 400px){
+    main{  
+        max-width: 400px; 
+        width: 100%;
+        }
+    nav ul{
+        grid-template-columns: 1fr;
+    }
+}
